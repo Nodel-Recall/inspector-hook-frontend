@@ -9,7 +9,7 @@ import { io } from "socket.io-client";
 // import Form from "react-bootstrap/Form";
 // import Button from "react-bootstrap/Button";
 
-const Domain = "http://localhost:3003";// production = "https://psh.pp.ua/"
+const Domain = "http://localhost:3003"; // production = "https://psh.pp.ua/"
 
 const socket = io(Domain);
 
@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="wrapper">
       <header>
-        <h1>NRecall Bin</h1>
+        <h1>Recall Bin</h1>
       </header>
       <div className="container">
         <aside>
